@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Pinsei",
+  "version": "1.0.0",
+  "description": "Save the current tab and browse your Pinsei folders without leaving the page.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pinsei-extension@pinsei.com",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Pinsei",
+    "default_icon": {
+      "48": "icons/icon.svg"
+    }
+  },
+
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://ssvaodwmzfbkolprxouc.supabase.co/*"]
+}
