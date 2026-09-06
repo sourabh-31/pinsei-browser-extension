@@ -41,7 +41,7 @@ export function RecentView({
 
       <div className="flex flex-col gap-0.5">
         {shown.length === 0 ? (
-          <p className="px-1.5 py-6 text-center text-[11.5px] font-medium text-muted-foreground">
+          <p className="px-1.5 py-6 text-center text-[11.5px] font-semibold text-muted-foreground">
             {q ? `No matches for "${query}"` : "Nothing saved yet"}
           </p>
         ) : (

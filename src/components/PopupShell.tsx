@@ -137,9 +137,9 @@ function TabButton({
       type="button"
       onClick={onClick}
       className={cn(
-        "flex-1 cursor-pointer rounded-[9px] border-0 py-1.5 text-[11.5px] font-semibold outline-hidden",
+        "flex-1 cursor-pointer rounded-[9px] border-0 py-1.5 text-[11.5px] font-bold outline-hidden",
         active
-          ? "bg-card text-foreground shadow-[0_1px_2px_oklch(0_0_0/0.07)]"
+          ? "bg-card text-foreground shadow-[0_1px_3px_oklch(0_0_0/0.45)]"
           : "bg-transparent text-muted-foreground",
       )}
     >

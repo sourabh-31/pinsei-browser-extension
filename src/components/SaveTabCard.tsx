@@ -59,7 +59,7 @@ export function SaveTabCard({ bookmarks, folders }: SaveTabCardProps) {
 
   if (tab === null) {
     return (
-      <div className="mx-3 mt-1 flex shrink-0 items-center gap-2.5 rounded-2xl bg-card p-3 text-[11.5px] font-medium text-muted-foreground shadow-field">
+      <div className="mx-3 mt-1 flex shrink-0 items-center gap-2.5 rounded-2xl bg-card p-3 text-[11.5px] font-semibold text-muted-foreground shadow-field">
         This page can&apos;t be saved.
       </div>
     );
@@ -103,10 +103,10 @@ export function SaveTabCard({ bookmarks, folders }: SaveTabCardProps) {
           )}
         </div>
         <div className="min-w-0 flex-1">
-          <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[12.5px] font-medium leading-[1.3] text-foreground">
+          <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[12.5px] font-semibold leading-[1.3] text-foreground">
             {title}
           </p>
-          <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[10px] font-semibold leading-[1.3] text-muted-foreground">
+          <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[10px] font-bold leading-[1.3] text-muted-foreground">
             {clean}
           </p>
         </div>
@@ -126,7 +126,7 @@ export function SaveTabCard({ bookmarks, folders }: SaveTabCardProps) {
           <select
             value={folderId}
             onChange={(e) => setFolderId(e.target.value)}
-            className="h-8 min-w-0 flex-1 rounded-[10px] border border-border bg-card px-2 text-[12px] font-medium text-foreground-secondary shadow-field outline-none hover:border-[oklch(0.9_0.004_300)]"
+            className="h-8 min-w-0 flex-1 rounded-[10px] border border-border bg-card px-2 text-[12px] font-semibold text-foreground-secondary shadow-field outline-none hover:border-[oklch(0.38_0.008_283)]"
           >
             <option value="">Unsorted</option>
             {folders.map((f) => (

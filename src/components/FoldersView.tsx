@@ -70,7 +70,7 @@ export function FoldersView({
         ))}
 
         {!showUnsorted && !showFavourites && customFolders.length === 0 && (
-          <p className="px-1.5 py-6 text-center text-[11.5px] font-medium text-muted-foreground">
+          <p className="px-1.5 py-6 text-center text-[11.5px] font-semibold text-muted-foreground">
             No folders match &quot;{query}&quot;
           </p>
         )}
@@ -103,10 +103,10 @@ function FolderRow({
       >
         {icon}
       </span>
-      <span className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[12.5px] font-medium text-foreground-secondary">
+      <span className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[12.5px] font-semibold text-foreground-secondary">
         {name}
       </span>
-      <span className="shrink-0 text-[10.5px] font-semibold text-muted-foreground">
+      <span className="shrink-0 text-[10.5px] font-bold text-muted-foreground">
         {count}
       </span>
     </button>

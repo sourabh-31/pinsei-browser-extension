@@ -21,7 +21,7 @@ export function Input({
       )}
       <input
         className={cn(
-          "h-8 w-full min-w-0 rounded-[10px] border border-border bg-card text-[12.5px] font-medium shadow-field outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:opacity-50 hover:border-[oklch(0.9_0.004_300)] focus-visible:border-ring",
+          "h-8 w-full min-w-0 rounded-[10px] border border-border bg-card text-[12.5px] font-semibold shadow-field outline-none placeholder:text-muted-foreground disabled:pointer-events-none disabled:opacity-50 hover:border-[oklch(0.38_0.008_283)] focus-visible:border-ring",
           isSearchIcon ? "pl-7.5 pr-2.5" : "px-2.5",
           className,
         )}

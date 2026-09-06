@@ -8,7 +8,7 @@ const variants: Record<Variant, string> = {
   default:
     "border-none bg-gradient-primary text-primary-foreground shadow-cta-sm",
   secondary:
-    "border border-border bg-card text-foreground-secondary shadow-field hover:border-[oklch(0.87_0.06_6)] hover:text-accent-foreground",
+    "border border-border bg-card text-foreground-secondary shadow-field hover:border-[oklch(0.42_0.09_8)] hover:text-accent-foreground",
   ghost:
     "border-none bg-transparent text-muted-foreground hover:bg-muted hover:text-foreground",
   destructive:

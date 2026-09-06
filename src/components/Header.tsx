@@ -68,7 +68,7 @@ export function Header() {
                   {fullName}
                 </p>
               )}
-              <p className="truncate text-[11px] font-medium text-muted-foreground">
+              <p className="truncate text-[11px] font-semibold text-muted-foreground">
                 {user?.email || "Account"}
               </p>
             </div>
@@ -76,7 +76,7 @@ export function Header() {
               href="https://pinsei.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex w-full cursor-pointer items-center gap-1.75 rounded-lg px-2 py-1.5 text-left text-[11px] font-medium text-foreground-secondary no-underline outline-hidden hover:bg-surface-hover [&_svg]:size-3.5"
+              className="flex w-full cursor-pointer items-center gap-1.75 rounded-lg px-2 py-1.5 text-left text-[11px] font-semibold text-foreground-secondary no-underline outline-hidden hover:bg-surface-hover [&_svg]:size-3.5"
             >
               <ExternalLink />
               Go to app

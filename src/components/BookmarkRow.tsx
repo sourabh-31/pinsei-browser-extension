@@ -53,11 +53,11 @@ export function BookmarkRow({
       <div className="min-w-0 flex-1">
         <p
           title={bookmark.title}
-          className="overflow-hidden text-ellipsis whitespace-nowrap text-[12.5px] font-medium leading-[1.35] text-foreground"
+          className="overflow-hidden text-ellipsis whitespace-nowrap text-[12.5px] font-semibold leading-[1.35] text-foreground"
         >
           {bookmark.title}
         </p>
-        <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[10px] font-semibold leading-[1.35] text-muted-foreground">
+        <p className="overflow-hidden text-ellipsis whitespace-nowrap text-[10px] font-bold leading-[1.35] text-muted-foreground">
           {meta}
         </p>
       </div>

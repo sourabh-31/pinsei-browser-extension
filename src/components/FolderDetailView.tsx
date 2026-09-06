@@ -47,10 +47,10 @@ export function FolderDetailView({
         >
           <ArrowLeft size={15} />
         </button>
-        <h2 className="overflow-hidden text-ellipsis whitespace-nowrap text-[13px] font-semibold text-foreground-secondary">
+        <h2 className="overflow-hidden text-ellipsis whitespace-nowrap text-[13px] font-bold text-foreground-secondary">
           {folderName}
         </h2>
-        <span className="ml-auto shrink-0 text-[10.5px] font-semibold text-muted-foreground">
+        <span className="ml-auto shrink-0 text-[10.5px] font-bold text-muted-foreground">
           {scoped.length} {scoped.length === 1 ? "bookmark" : "bookmarks"}
         </span>
       </div>
@@ -64,7 +64,7 @@ export function FolderDetailView({
 
       <div className="flex flex-col gap-0.5">
         {shown.length === 0 ? (
-          <p className="px-1.5 py-6 text-center text-[11.5px] font-medium text-muted-foreground">
+          <p className="px-1.5 py-6 text-center text-[11.5px] font-semibold text-muted-foreground">
             {q ? `No matches for "${query}"` : "Nothing here yet"}
           </p>
         ) : (

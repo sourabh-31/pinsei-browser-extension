@@ -5,7 +5,7 @@ import { useSignIn } from "@/hooks/useAuth";
 import { Logo } from "@/components/Logo";
 
 const fieldInput =
-  "h-9.5 w-full box-border rounded-[10px] border border-border bg-card pl-8.5 pr-3 font-sans text-[12.5px] font-medium text-foreground shadow-field outline-none placeholder:text-muted-foreground hover:border-[oklch(0.9_0.004_300)] focus-visible:border-ring";
+  "h-9.5 w-full box-border rounded-[10px] border border-border bg-card pl-8.5 pr-3 font-sans text-[12.5px] font-semibold text-foreground shadow-field outline-none placeholder:text-muted-foreground hover:border-[oklch(0.38_0.008_283)] focus-visible:border-ring";
 
 export function Login() {
   const [email, setEmail] = useState("");
@@ -28,7 +28,7 @@ export function Login() {
           <h1 className="text-[16px] font-bold text-foreground">
             Welcome back
           </h1>
-          <p className="max-w-[22em] text-[11.5px] leading-normal font-medium text-muted-foreground">
+          <p className="max-w-[22em] text-[11.5px] leading-normal font-semibold text-muted-foreground">
             Sign in to save and browse your bookmarks
           </p>
         </div>
@@ -75,7 +75,7 @@ export function Login() {
         </label>
 
         {signIn.isError && (
-          <p className="text-[11px] font-medium text-destructive">
+          <p className="text-[11px] font-semibold text-destructive">
             {signIn.error instanceof Error
               ? signIn.error.message
               : "Couldn't sign in"}
@@ -92,13 +92,13 @@ export function Login() {
         </Button>
       </form>
 
-      <p className="text-center text-[11px] font-medium text-muted-foreground">
+      <p className="text-center text-[11px] font-semibold text-muted-foreground">
         New to Pinsei?{" "}
         <a
           href="https://pinsei.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-foreground-secondary underline underline-offset-2 hover:text-foreground"
+          className="font-bold text-foreground-secondary underline underline-offset-2 hover:text-foreground"
         >
           Create an account
         </a>
