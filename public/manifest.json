@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Pinsei",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Save the current tab and browse your Pinsei folders without leaving the page.",
 
   "browser_specific_settings": {
