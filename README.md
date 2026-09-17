@@ -1,4 +1,4 @@
-# 📌 Pinsei — Firefox Extension
+# 📌 Pinsei – Firefox Extension
 
 A compact, mini version of [Pinsei](../pinsei-bookmark-manager) that lives in the
 Firefox toolbar. Sign in with your existing Pinsei account to:
