@@ -58,7 +58,7 @@ pnpm dlx web-ext run --source-dir=dist --target=firefox-desktop
 
 ## ☕ Support
 
-If you find Dropsei useful, consider [buying me a coffee](https://www.buymeacoffee.com/sourabh0003).
+If you find Pinsei Extension useful, consider [buying me a coffee](https://www.buymeacoffee.com/sourabh0003).
 
 ## 📄 License
 
